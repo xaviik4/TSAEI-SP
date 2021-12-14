@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".home_page">
+
+    <TextView
+        android:id="@+id/topics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Pick one of our 3 Topics below"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Finance"
+        android:textColor="@color/white"
+        android:layout_margin="50dp"
+        android:id="@+id/topic1"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/topics"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Macroeconomics"
+        android:layout_margin="50dp"
+        android:id="@+id/topic2"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/topic1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Investing"
+        android:layout_margin="50dp"
+        android:id="@+id/topic3"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/topic2"/>
+
+
+</RelativeLayout>

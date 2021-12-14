@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/welcome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Learn about everything finance!"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/learning"
+        android:layout_below="@+id/welcome"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learning"
+        android:textSize="15sp"
+        app:cornerRadius="35dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Get Started"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already have an account?"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/member"
+        android:layout_below="@+id/newAccount"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/member"
+        app:cornerRadius="35dp"
+        android:textSize="10sp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:text="Login here!"/>
+
+</RelativeLayout>
