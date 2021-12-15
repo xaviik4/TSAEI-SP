@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        getSupportActionBar().hide();
-
+        getSupportActionBar().hide(); //hides the action bar for this activity
         VideoView videoView = (VideoView) findViewById(R.id.logo);
         videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.logo));
         videoView.start();

@@ -18,36 +18,89 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/welcomeBack"/>
 
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeBack"
+        android:hint="Enter Email"
+        android:textSize="15sp"
+        android:ems="30"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/gainsboro"
+        android:layout_centerHorizontal="true"
+        android:padding="13dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:hint="Enter Password"
+        android:textSize="15sp"
+        android:ems="30"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gainsboro"
+        android:layout_centerHorizontal="true"
+        android:padding="13dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"/>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/welcomeBack"
-        android:textSize="15sp"
-        app:cornerRadius="35dp"
-        android:textColor="@color/white"
+        android:layout_below="@+id/Password"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="60dp"
         android:backgroundTint="@color/black"
-        android:text="Login"/>
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        app:cornerRadius="35dp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/getStarted2"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/black"
         android:layout_below="@+id/loginButton2"
-        android:textSize="15sp"
-        app:cornerRadius="35dp"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/noAccount"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/getStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noAccount"
+        android:textSize="12sp"
+        android:padding="5dp"
+        app:cornerRadius="35dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginBottom="60dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/gainsboro"
         android:text="Get Started"/>
 
 </RelativeLayout>
