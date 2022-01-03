@@ -20,7 +20,8 @@ import java.util.ArrayList;
 
 public class topic1 extends AppCompatActivity {
 
-    ArrayList<String> numberlist = new ArrayList<>();
+    ArrayList<String> nameList = new ArrayList<>();
+    ArrayList<String> defintionList = new ArrayList<>();
 
     private Button nextButton;
     private Button backButton;
@@ -36,6 +37,7 @@ public class topic1 extends AppCompatActivity {
         nextButton = findViewById(R.id.nextButton);
         backButton = findViewById(R.id.backButton);
         TextView name = (TextView)findViewById(R.id.name);
+        TextView defintion = (TextView)findViewById(R.id.definitions);
         get_json();
 
 
@@ -51,78 +53,96 @@ public class topic1 extends AppCompatActivity {
             public void next(int p) {
 
                 if (p == 0) {
-                    name.setText(numberlist.get(0));
+                    name.setText(nameList.get(0));
+                    defintion.setText(defintionList.get(0));
                     pageNumber++;
                     //hide back button
                 }
                 else if (p == 1) {
-                    name.setText(numberlist.get(1));
+                    name.setText(nameList.get(1));
+                    defintion.setText(defintionList.get(1));
                     pageNumber++;
                 }
                 else if (p == 2) {
-                    name.setText(numberlist.get(2));
+                    name.setText(nameList.get(2));
+                    defintion.setText(defintionList.get(2));
                     pageNumber++;
                 }
                 else if (p == 3) {
-                    name.setText(numberlist.get(3));
+                    name.setText(nameList.get(3));
+                    defintion.setText(defintionList.get(3));
                     pageNumber++;
                 }
                 else if (p == 4) {
-                    name.setText(numberlist.get(4));
+                    name.setText(nameList.get(4));
+                    defintion.setText(defintionList.get(4));
                     pageNumber++;
                 }
                 else if (p == 5) {
-                    name.setText(numberlist.get(5));
+                    name.setText(nameList.get(5));
+                    defintion.setText(defintionList.get(5));
                     pageNumber++;
                 }else if (p == 6) {
-                    name.setText(numberlist.get(6));
+                    name.setText(nameList.get(6));
+                    defintion.setText(defintionList.get(6));
                     pageNumber++;
                 }
                 else if (p == 7) {
-                    name.setText(numberlist.get(7));
+                    name.setText(nameList.get(7));
+                    defintion.setText(defintionList.get(7));
                     pageNumber++;
                 }
                 else if (p == 8) {
-                    name.setText(numberlist.get(8));
+                    name.setText(nameList.get(8));
+                    defintion.setText(defintionList.get(8));
                     pageNumber++;
                 }
                 else if (p == 9) {
-                    name.setText(numberlist.get(9));
+                    name.setText(nameList.get(9));
+                    defintion.setText(defintionList.get(9));
                     pageNumber++;
                 }
                 else if (p == 10) {
-                    name.setText(numberlist.get(10));
+                    name.setText(nameList.get(10));
+                    defintion.setText(defintionList.get(10));
                     pageNumber++;
                 }
                 else if (p == 11) {
-                    name.setText(numberlist.get(11));
+                    name.setText(nameList.get(11));
+                    defintion.setText(defintionList.get(11));
                     pageNumber++;
                 }
                 else if (p == 12) {
-                    name.setText(numberlist.get(12));
+                    name.setText(nameList.get(12));
+                    defintion.setText(defintionList.get(12));
                     pageNumber++;
                 }
                 else if (p == 13) {
-                    name.setText(numberlist.get(13));
+                    name.setText(nameList.get(13));
+                    defintion.setText(defintionList.get(13));
                     pageNumber++;
                 }
                 else if (p == 14) {
-                    name.setText(numberlist.get(14));
+                    name.setText(nameList.get(14));
+                    defintion.setText(defintionList.get(14));
                     pageNumber++;
                 }
                 else if (p == 15) {
-                    name.setText(numberlist.get(15));
+                    name.setText(nameList.get(15));
+                    defintion.setText(defintionList.get(15));
                     pageNumber++;
                 }
                 else if (p == 16) {
-                    name.setText(numberlist.get(16));
+                    name.setText(nameList.get(16));
+                    defintion.setText(defintionList.get(16));
                     pageNumber++;
                 }
                 else if (p == 17) {
-                    name.setText(numberlist.get(17));
+                    name.setText(nameList.get(17));
+                    defintion.setText(defintionList.get(17));
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "ERROR",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "No further content",Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -138,75 +158,92 @@ public class topic1 extends AppCompatActivity {
 
            public void back(int p) {
                if (p == 17) {
-                   name.setText(numberlist.get(16));
+                   name.setText(nameList.get(16));
+                   defintion.setText(defintionList.get(16));
                    pageNumber--;
                }
                else if (p == 16) {
-                   name.setText(numberlist.get(15));
+                   name.setText(nameList.get(15));
+                   defintion.setText(defintionList.get(15));
                    pageNumber--;
                }
                else if (p == 15) {
-                   name.setText(numberlist.get(14));
+                   name.setText(nameList.get(14));
+                   defintion.setText(defintionList.get(14));
                    pageNumber--;
                }
                else if (p == 14) {
-                   name.setText(numberlist.get(13));
+                   name.setText(nameList.get(13));
+                   defintion.setText(defintionList.get(13));
                    pageNumber--;
                }
                else if (p == 13) {
-                   name.setText(numberlist.get(12));
+                   name.setText(nameList.get(12));
+                   defintion.setText(defintionList.get(12));
                    pageNumber--;
                }else if (p == 12) {
-                   name.setText(numberlist.get(11));
+                   name.setText(nameList.get(11));
+                   defintion.setText(defintionList.get(11));
                    pageNumber--;
                }
                else if (p == 11) {
-                   name.setText(numberlist.get(10));
+                   name.setText(nameList.get(10));
+                   defintion.setText(defintionList.get(10));
                    pageNumber--;
                }
                else if (p == 10) {
-                   name.setText(numberlist.get(9));
+                   name.setText(nameList.get(9));
+                   defintion.setText(defintionList.get(9));
                    pageNumber--;
                }
                else if (p == 9) {
-                   name.setText(numberlist.get(8));
+                   name.setText(nameList.get(8));
+                   defintion.setText(defintionList.get(8));
                    pageNumber--;
                }
                else if (p == 8) {
-                   name.setText(numberlist.get(7));
+                   name.setText(nameList.get(7));
+                   defintion.setText(defintionList.get(7));
                    pageNumber--;
                }
                else if (p == 7) {
-                   name.setText(numberlist.get(6));
+                   name.setText(nameList.get(6));
+                   defintion.setText(defintionList.get(6));
                    pageNumber--;
                }
                else if (p == 6) {
-                   name.setText(numberlist.get(5));
+                   name.setText(nameList.get(5));
+                   defintion.setText(defintionList.get(5));
                    pageNumber--;
                }
                else if (p == 5) {
-                   name.setText(numberlist.get(4));
+                   name.setText(nameList.get(4));
+                   defintion.setText(defintionList.get(4));
                    pageNumber--;
                }
                else if (p == 4) {
-                   name.setText(numberlist.get(3));
+                   name.setText(nameList.get(3));
+                   defintion.setText(defintionList.get(3));
                    pageNumber--;
                }
                else if (p == 3) {
-                   name.setText(numberlist.get(2));
+                   name.setText(nameList.get(2));
+                   defintion.setText(defintionList.get(2));
                    pageNumber--;
                }
                else if (p == 2) {
-                   name.setText(numberlist.get(1));
+                   name.setText(nameList.get(1));
+                   defintion.setText(defintionList.get(1));
                    pageNumber--;
                }
                else if (p == 1) {
-                   name.setText(numberlist.get(0));
+                   name.setText(nameList.get(0));
+                   defintion.setText(defintionList.get(0));
                    pageNumber--;
                    // hide the back button
                }
                else {
-                   Toast.makeText(getApplicationContext(), "ERROR",Toast.LENGTH_LONG).show();
+                   Toast.makeText(getApplicationContext(), "No previous content",Toast.LENGTH_LONG).show();
                }
            }
         });
@@ -228,55 +265,107 @@ public class topic1 extends AppCompatActivity {
             for (int i = 0; i < jsonArray.length(); i++){
                 JSONObject obj = jsonArray.getJSONObject(i);
                 if (obj.getString("id").equals("1")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("2")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("3")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("4")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("5")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("6")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("7")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("8")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("9")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("10")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("11")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("12")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("13")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("14")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }else if (obj.getString("id").equals("15")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("16")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("17")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
                 else if (obj.getString("id").equals("18")) {
-                    numberlist.add(obj.getString("name"));
+                    nameList.add(obj.getString("name"));
                 }
             }
-            //Toast.makeText(getApplicationContext(),numberlist.toString(),Toast.LENGTH_LONG).show();
+
+            for (int i = 0; i < jsonArray.length(); i++){
+                JSONObject obj = jsonArray.getJSONObject(i);
+                if (obj.getString("id").equals("1")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("2")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("3")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("4")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("5")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("6")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("7")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("8")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("9")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("10")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("11")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("12")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("13")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("14")) {
+                    defintionList.add(obj.getString("definition"));
+                }else if (obj.getString("id").equals("15")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("16")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("17")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+                else if (obj.getString("id").equals("18")) {
+                    defintionList.add(obj.getString("definition"));
+                }
+            }
+            //Toast.makeText(getApplicationContext(),nameList.toString(),Toast.LENGTH_LONG).show();
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
