@@ -21,4 +21,63 @@
         android:textColor="@color/black"
         android:textSize="30sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_below="@+id/personalFinance"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="definitions"
+        android:layout_below="@+id/name"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/definitions"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/definitions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/black"
+        android:text="next"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        app:cornerRadius="35dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nextButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/black"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        app:cornerRadius="35dp" />
+
+
 </RelativeLayout>

@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Investing Basic Definition",
+        "definition": "Many people turn to investing when they need more money, whether it be to buy a home, create savings for college, or retirement. Unlike storing your money in a bank account however, the value of stocks, bonds, and other securities will fluctuate depending on the market. There is no guarantee of gaining money, and in fact you may end up losing money. Learning how to properly invest makes sure that you don’t end up losing money, and maximizes your potential gains."
+    },
+    {
+        "id": 2,
+        "name": "Steps Towards Investing",
+        "definition": "There are many steps towards investing, and knowing what to do and what you want to do are key towards developing a plan. You need to first define your goals, and what you want to do and how you plan to use your money. You then need to figure out your finances, and keep track of your net worth and whether it’s increasing or decreasing due to your investments. To calculate net worth, you need to first subtract the dollar amount of what you owe (debts) from what you own (various assets) to figure it out. If you have more assets you have a positive net worth, and if you have more debts then you have a negative net worth. Keeping track of what you’re spending and analyzing your net worth helps see where you are, and if what you’re doing financially is working. When investing, you need to gauge your risk tolerance, and what products you should invest in. Choosing a slow growth strategy may not be beneficial over a long period, as inflation might cancel out whatever you gain. Having an aggressive strategy however can be bad, as if you need the money soon then a risky strategy could end up making you lose money when you need it the most. Diversification is one of the best ways to avoid risk, as not keeping all your eggs in one basket helps make sure that if one investment plan goes wrong, you have others that will make up for the losses and keep you in the positive."
+    },
+    {
+        "id": 3,
+        "name": "Bond Definition",
+        "definition": "A bond is a type of debt security, similar to an IOU. Borrowers will issue bonds to raise money from investors that are willing to lend them money for a certain amount of time. When you buy a bond, you lend money to the issuer, which can be a government, municipality, or corporation. In return for lending the money, the issuer will pay you a specified rate of interest during the life of the bond, and to repay the principal (face value of bond) when it matures after a set period of time."
+    },
+    {
+        "id": 4,
+        "name": "Why should I buy bonds?",
+        "definition": "Investors will buy bonds, as they provide a predictable income stream. Typically the bonds will pay interest twice a year. If bonds are held until the maturity date, the holders will get paid back the entire principal, so investors can preserve capital while investing. Bonds can also help offset exposure to volatile stock holdings, and help offset risks from these risky and volatile investments."
+    },
+    {
+        "id": 5,
+        "name": "Why do companies, governments, and municipalities issue bonds?",
+        "definition": "Companies, governments, and municipalities will issue bonds, to provide operating cash flow, financing debt, and funding capital investments into projects."
+    },
+    {
+        "id": 6,
+        "name": "Corporate Bonds",
+        "definition": "Corporate bonds are the biggest component of the U.S. bond market, and one of the largest types of securities in the world. Companies issue bonds when they need money to fund a project or research. Like stocks, investors will gain money when the company does well, except it’s limited by the interest and principle of the bond while stocks can go up further. There are risks involved with corporate bonds however, as if a company defaults or goes bankrupt, ability to pay the bond’s interest to the holders is limited or not possible. However, bond holders are the first to get paid with the auctioning of the company’s assets, unlike shareholders who are the last priority to get paid."
+    },
+    {
+        "id": 7,
+        "name": "Municipal Bonds",
+        "definition": "Municipal bonds are bonds issued by states, cities, counties, and other government entities to fund their day to day operations and fund projects. The interest on these bonds are exempt from taxes, which is a huge upside that many investors see when investing in these types of bonds. These bonds are typically low risk compared to other types of bonds, so the tax exemption and the low risk is appealing to investors."
+    },
+    {
+        "id": 8,
+        "name": "Savings Bonds",
+        "definition": "Saving bonds are debt securities issued by the U.S. Department of the Treasury, to help pay for the U.S. government’s borrowing needs. These bonds are considered the safest investments because they are backed by the full faith and credit of the U.S. Government. There are tax advantages to these types of bonds too, and you can defer paying taxes until you cash in the bond or it matures. These bonds are popular as gifts too, as minors can hold bonds in their own name as well as being a great way to introduce people into finance."
+    },
+    {
+        "id": 9,
+        "name": "Stock Definition",
+        "definition": "Stocks (also called equities) are a type of security that gives the holder a tiny share of ownership in a publicly traded company. You can imagine a comedy being a giant pizza, and one share is a very very tiny slice of that pizza."
+    },
+    {
+        "id": 10,
+        "name": "Why should I buy stocks?",
+        "definition": "Investors will buy stocks for various reasons. Investors will buy stock for capital appreciation, which occurs when a stock rises in price; dividend payments, in which the company distributes its earnings to shareholders; and finally for having a voice in the company, voting for management influencing corporate decisions."
+    },
+    {
+        "id": 11,
+        "name": "Why do companies issue stock?",
+        "definition": "Companies will issue stock, to generate money for various reasons. These may include paying off debts, launching and researching new products, expanding into new markets, and enlarging and increasing infrastructure. Companies are always needing more money, and issuing stock is a great way to solve this problem."
+    },
+    {
+        "id": 12,
+        "name": "What kinds of stocks are there?",
+        "definition": "Growth Stocks: These are stocks that have rapid earnings growth, much faster than the market average. They rarely pay dividends, and investors buy these with the hope of rapid capital appreciation (price rise). A startup tech company will likely end up being a growth stock. Income Stocks: These are companies that pay dividends consistently, and investors buy them for the extra income they will generate. A well established utility company will likely be an income stock. Value Stocks: These stocks are companies that have a low price to earning (PE) ratio, which means they are cheaper compared to other stocks. Value stocks may be either growth or income stocks, but the low PE ratio means that they have fallen out of favor with investors for some reason. Investors will buy value stocks, in the hope that the market has overreacted, and the stock's price will rebound back up. Blue-chip Stocks: These are shares that are in large, well known companies with solid histories of growth as well as dividend payments. These can include well known and famous companies, such as Apple, IBM, and General Electric. Additional cauterization of stocks can be done by the size of the company, usually by the market capitalization (share price multiplied by amount of shares issued). These are categorized into large-cap, mid-cap, small-cap, and micro-cap. The very lowest priced stocks are known as penny stocks, which are usually traded at under a dollar per share. These are very speculative, and can be very risky to invest in."
+    },
+    {
+        "id": 13,
+        "name": "What are the risks of stocks?",
+        "definition": "There is never a guarantee that a company's stock price will increase.The market always fluctuates, and prices will always be going up and down. If a company becomes bankrupt and its assets get liquidated, stockholders will be the last in line to get a share of its proceeds. The bondholders of the company will get the proceeds first, and then the stockholders will get whatever is left, which may be nothing at all. Market fluctuations through news can also be unnerving to some investors, as bad news can send the stock into freefall. Events companies have no control over such as political or market wide events, can send stock prices into freefall. Managing your risk, and having a diversified portfolio through stocks and other investment holdings such as bonds can help offset risks from stocks. Maintaining a good balance between aggressive growth and safety is vital towards performing well in the market."
+    },
+    {
+        "id": 14,
+        "name": "How Do I Invest in Stocks?",
+        "definition": "You can invest in stocks by opening a brokerage account, on a well known and trusted broker. Each broker has different features and promotions, so always compare brokers and find one that is right for you as well as reliable and safe. There are many different types of accounts with different purposes, so make sure you choose the right one that fits your needs. For basic investing, a regular brokerage account should be all you need. For brokerage accounts, there are two types, a cash account in which the investor must have the full amount to pay for securities, and a margin account, in which your broker can lend you money to buy securities. A margin account is risky to have, as you have to borrow money, and other securities in your portfolio serve as collateral in which your broker can sell anytime if you start to lose too much money. Trading on margin however can increase your gains, but at the same time you need to analyze your risk and make sure you’re making a good trade."
+    },
+    {
+        "id": 15,
+        "name": "Buying and Selling Stock",
+        "definition": "When buying a stock, there are many different ways you can place an order. A market order is to buy a stock immediately, guaranteeing the execution of the order but not the price. The market order will execute near the current bid (what people are willing to pay) and ask (what people are wanting to sell for). A limit order is an order to buy or sell a stock at a price the investor chooses, or a better amount. It’s only executed when the demand is met, such as when an investor wants to sell a stock at $10, it will only sell the stock at $10 or if it can at a slightly higher price."
+    },
+    {
+        "id": 16,
+        "name": "Short Selling",
+        "definition": "When normalling buying a stock, most investors go long, which means they expect the stock will rise in value in the future, so they hold onto it until then. The opposite of this is a short position, when investors believe the value of the stock will drop, so they will enter a short position. To enter a short position, investors short sell a stock, done by borrowing shares from your broker to sell. After selling the stock, the investors will have to eventually buy back the stock and give it back to the broker, hopefully at a lower price to make a profit. Short Selling can only be done on a margin account, and has a theoretical infinite risk as the price of a stock can keep increasing and you’re forced to buy at a higher price."
+    },
+    {
+        "id": 17,
+        "name": "Mutual and Exchange Traded Funds",
+        "definition": "A mutual fund is a company that pools money from many investors, and proceeds to invest into securities such as stocks, bonds, and short term debt. These combined holdings are known as the portfolio of the mutual fund, and each share represents an investor’s ownership in the fund and the income it generates. An Exchange Traded Fund (ETF) is like a mutual fund, except they’re traded on an exchange and market prices may not be the same as the actual value of the fund’s assets. ETFs can also be actively traded on the market, while for mutual funds you have to disclose sales and purchases in advance. Mutual funds and ETFs can track various sectors of the market, such as SPY, an ETF that tracks the S&P 500 index, or other various funds that track certain industry sectors such as oil and tech ETFs. Mutual funds and ETFs are generally one of the safer investments, as they are diversified and will only go down if the whole market or sector they focus on goes down."
+    },
+    {
+        "id": 18,
+        "name": "What are Risky Investments?",
+        "definition": "Risky investments are investments that usually have a high risk and high reward ratio, and are appealing to investors with a lower amount of capital wanting to increase their capital in a fast way. These investments are more appealing to younger investors, who usually have less money in their name and may not need to worry about their money as much. They may also be uneducated financially, and invest in risky investments hoping to gain large amounts of money seeing other investors getting lucky and having their risky investments pay off. Types of risky investments include options, derivatives, futures, and other insurance products. Cryptocurrency can also fall into the risky investment category, as trading and value fluctuates large amounts constantly, and there is no company or government entity backing up the currencies."
+    }
+
+]
