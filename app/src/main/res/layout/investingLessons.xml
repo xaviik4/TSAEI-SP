@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".topic1">
+    tools:context=".personalFinanceLessons">
 
     <TextView
-        android:id="@+id/personalFinance"
+        android:id="@+id/investing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -17,7 +17,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Personal Finance"
+        android:text="Investing"
         android:textColor="@color/black"
         android:textSize="30sp" />
 
@@ -25,43 +25,43 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/personalFinance"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
+        android:layout_below="@+id/investing"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="100dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="20dp"
+        android:gravity="center"
         android:text="name"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/definitions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="definitions"
         android:layout_below="@+id/name"
-        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="40dp"
-        android:textSize="15sp"
+        android:gravity="center"
+        android:text="definitions"
         android:textColor="@color/black"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/definitions"/>
+        android:textSize="15sp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/definitions"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginBottom="70dp"
         android:backgroundTint="@color/black"
         android:padding="10dp"
         android:text="back"
@@ -73,12 +73,9 @@
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/definitions"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="100dp"
-        android:layout_toEndOf="@+id/backButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="70dp"
         android:layout_toRightOf="@+id/backButton"
         android:backgroundTint="@color/black"
         android:padding="10dp"
@@ -86,6 +83,5 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         app:cornerRadius="35dp" />
-
 
 </RelativeLayout>

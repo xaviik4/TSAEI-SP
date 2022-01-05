@@ -14,15 +14,15 @@
             android:name=".stockTracker"
             android:exported="false" />
         <activity
-            android:name=".topic3"
+            android:name=".personalFinanceLessons"
             android:exported="false"
             android:parentActivityName=".home_page" />
         <activity
-            android:name=".topic2"
+            android:name=".macroeconLessons"
             android:exported="false"
             android:parentActivityName=".home_page" />
         <activity
-            android:name=".topic1"
+            android:name=".investingLessons"
             android:exported="false"
             android:parentActivityName=".home_page" />
         <activity

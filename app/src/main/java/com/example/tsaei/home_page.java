@@ -25,7 +25,7 @@ public class home_page extends AppCompatActivity {
         topic1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, topic1.class);
+                Intent intent = new Intent(home_page.this, personalFinanceLessons.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class home_page extends AppCompatActivity {
         topic2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, topic2.class);
+                Intent intent = new Intent(home_page.this, macroeconLessons.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class home_page extends AppCompatActivity {
         topic3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, topic3.class);
+                Intent intent = new Intent(home_page.this, investingLessons.class);
                 startActivity(intent);
             }
         });

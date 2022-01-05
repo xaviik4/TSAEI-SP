@@ -18,7 +18,7 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
-public class topic1 extends AppCompatActivity {
+public class investingLessons extends AppCompatActivity {
 
     ArrayList<String> nameList = new ArrayList<>();
     ArrayList<String> defintionList = new ArrayList<>();
@@ -33,7 +33,7 @@ public class topic1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topic1);
+        setContentView(R.layout.investingLessons);
         nextButton = findViewById(R.id.nextButton);
         backButton = findViewById(R.id.backButton);
         TextView name = (TextView)findViewById(R.id.name);
