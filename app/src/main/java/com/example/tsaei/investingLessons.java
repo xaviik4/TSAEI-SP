@@ -33,7 +33,7 @@ public class investingLessons extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.investingLessons);
+        setContentView(R.layout.investing_lessons);
         nextButton = findViewById(R.id.nextButton);
         backButton = findViewById(R.id.backButton);
         TextView name = (TextView)findViewById(R.id.name);
