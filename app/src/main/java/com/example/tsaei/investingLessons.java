@@ -28,8 +28,6 @@ public class investingLessons extends AppCompatActivity {
     int pageNumber = 0;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +50,14 @@ public class investingLessons extends AppCompatActivity {
 
             public void next(int p) {
 
-                if (p == 0) {
+                for (int i = pageNumber; i < nameList.get().length(); i++) {
+                    name.setText(nameList.get(p));
+                    defintion.setText(defintionList.get(p));
+                    pageNumber++;
+                }
+                Toast.makeText(getApplicationContext(), "No further content", Toast.LENGTH_LONG).show();
+
+               /* if (p == 0) {
                     name.setText(nameList.get(0));
                     defintion.setText(defintionList.get(0));
                     pageNumber++;
@@ -143,7 +148,7 @@ public class investingLessons extends AppCompatActivity {
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "No further content",Toast.LENGTH_LONG).show();
-                }
+                }*/
             }
         });
 
