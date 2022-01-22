@@ -1,0 +1,298 @@
+[
+    {
+        "id": 1,
+        "question": "What is the importance of making good choices?",
+        "answer": "Being able to make a smart decision that will positively affect your future",
+        "wrong1": "Choosing something that you like but may affect you negatively",
+        "wrong2": "Not important, make any choice you want",
+        "wrong3": "Choosing a random choice for fun"
+    },
+    {
+        "id": 2,
+        "question": "How can you start analyzing financial choices?",
+        "answer": "Keeping track of every purchase, no matter how big,  small or essential it is",
+        "wrong1": "Keeping track of just your expensive buys",
+        "wrong2": "Keeping track of just your cheap buys",
+        "wrong3": "Only tracking a few select items"
+    },
+    {
+        "id": 3,
+        "question": "How should you decide if a purchase is worth it?",
+        "answer": "Analyzing if you really need it or not, and if you can go without it to save money",
+        "wrong1": "If you really like it, keep buying it even if you suffer financially",
+        "wrong2": "Randomly making a decision, without any analysis",
+        "wrong3": "Basing your decision based on others, even if you know it's a bad one."
+    },
+    {
+        "id": 4,
+        "question": "What are the benefits you can get from a job?",
+        "answer": "Steady income, and benefits that can help save you money such as health insurance",
+        "wrong1": "Free food",
+        "wrong2": "Free transportation",
+        "wrong3": "Free uniforms and clothes"
+    },
+    {
+        "id": 5,
+        "question": "What are the hidden costs of a job?",
+        "answer": "Travel, uniforms and nice clothes, and potential child/adult care.",
+        "wrong1": "Taxes",
+        "wrong2": "Food",
+        "wrong3": "Tips"
+    },
+    {
+        "id": 6,
+        "question": "What is the most important part of budgeting?",
+        "answer": "Setting a good and realistic goal that is achievable in a time period",
+        "wrong1": "Monitoring money spending",
+        "wrong2": "Setting rough goals",
+        "wrong3": "Understanding where your money is going"
+    },
+    {
+        "id": 7,
+        "question": "The final phase of the budgeting process is to:",
+        "answer": "Reviewing financial progress",
+        "wrong1": "Set personal and financial goals",
+        "wrong2": "Compare your budget to what you have actually spent",
+        "wrong3": "Monitor current spending patterns"
+    },
+    {
+        "id": 8,
+        "question": "An example of a long term goal would be:",
+        "answer": "Saving for retirement",
+        "wrong1": "An annual vacation",
+        "wrong2": "Buying a used car",
+        "wrong3": "Completing college within the next six months"
+    },
+    {
+        "id": 9,
+        "question": "A clearly written financial goal would be:",
+        "answer": "To establish an emergency fund of $4,000 in 18 months",
+        "wrong1": "To pay off credits and bills in 12 months",
+        "wrong2": "To save money for college for the next five years",
+        "wrong3": "To invest in a mutual fund for retirement"
+    },
+    {
+        "id": 10,
+        "question": "A fixed expense is:",
+        "answer": "Auto insurance",
+        "wrong1": "Clothing",
+        "wrong2": "Electricity",
+        "wrong3": "Educational expenses"
+    },
+    {
+        "id": 11,
+        "question": "___ is considered a flexible expense.",
+        "answer": "Entertainment",
+        "wrong1": "Rent",
+        "wrong2": "Mortgage payments",
+        "wrong3": "Home insurance"
+    },
+    {
+        "id": 12,
+        "question": "What are the benefits of renting a home?",
+        "answer": "Ease of mobility, fewer responsibilities, and lower initial costs",
+        "wrong1": "Tax deductions",
+        "wrong2": "Gain from appreciation of house value",
+        "wrong3": "Paying the mortgage"
+    },
+    {
+        "id": 13,
+        "question": "What are the benefits of buying a home?",
+        "answer": "Pride of ownership, tax savings, and the appreciation of your home",
+        "wrong1": "A more restricted lifestyle",
+        "wrong2": "Legal concerns",
+        "wrong3": "Lower costs of maintenance"
+    },
+    {
+        "id": 14,
+        "question": "The home buying process starts with:",
+        "answer": "Determining home ownership needs",
+        "wrong1": "Locating and evaluating a home",
+        "wrong2": "Pricing the property",
+        "wrong3": "Obtaining an appraisal of the property"
+    },
+    {
+        "id": 15,
+        "question": "The amount of mortgage a person can afford is affected by:",
+        "answer": "His or her income",
+        "wrong1": "The location of the house",
+        "wrong2": "The cost of insurance",
+        "wrong3": "His or her age"
+    },
+    {
+        "id": 16,
+        "question": "A ___ mortgage has a very large final payment",
+        "answer": "Balloon",
+        "wrong1": "Conventional",
+        "wrong2": "Graduated payment",
+        "wrong3": "Shared appreciation"
+    },
+    {
+        "id": 17,
+        "question": "The charges for settling a real estate transaction are also called ___ costs.",
+        "answer": "Closing",
+        "wrong1": "Mortgage",
+        "wrong2": "Possession",
+        "wrong3": "Selling"
+    },
+    {
+        "id": 18,
+        "question": "What is the first thing you should do before applying for a mortgage?",
+        "answer": "Reduce debts and increase credit score to show you’re a good borrower",
+        "wrong1": "Compare the mortgage types",
+        "wrong2": "Apply for a mortgage",
+        "wrong3": "Pay closing costs"
+    },
+    {
+        "id": 19,
+        "question": "What should you do to prepare your house to sell?",
+        "answer": "Do the necessary repairs, matioence, and upgrades to improve the value of your home",
+        "wrong1": "Go to a real estate agent",
+        "wrong2": "Compare it with other houses in the area",
+        "wrong3": "Pay closing costs"
+    },
+    {
+        "id": 20,
+        "question": "What is a checking account designed for?",
+        "answer": "Day to day use on purchases, withdrawals, and deposits",
+        "wrong1": "Saving long term",
+        "wrong2": "Interest on the money you deposit",
+        "wrong3": "Storing money you don’t need immediately"
+    },
+    {
+        "id": 21,
+        "question": "What is a savings account designed for?",
+        "answer": "Long term saving with money you don’t need on a regular basis, with some interest",
+        "wrong1": "Day to day use",
+        "wrong2": "Use with a debit card",
+        "wrong3": "Withdrawals and deposits on a regular basis"
+    },
+    {
+        "id": 22,
+        "question": "What benefits does a debit card have compared to a credit card?",
+        "answer": "Not much, besides being able to spend money you already have",
+        "wrong1": "Cash back",
+        "wrong2": "Increased consumer protection",
+        "wrong3": "Rewards for using it"
+    },
+    {
+        "id": 23,
+        "question": "What is direct deposit?",
+        "answer": "Paychecks getting deposited into your account, without the need for a physical check",
+        "wrong1": "Free money deposited into your account",
+        "wrong2": "Cashback getting deposited into your account",
+        "wrong3": "When you deposit a check into your account"
+    },
+    {
+        "id": 24,
+        "question": "What aspects are credit involved?",
+        "answer": "Renting a car, airlines, and hotel rooms",
+        "wrong1": "Check deposits",
+        "wrong2": "Working a job",
+        "wrong3": "Opening a bank account"
+    },
+    {
+        "id": 25,
+        "question": "What is the advantage of a higher credit score?",
+        "answer": "Access to better loans with lower interest rates",
+        "wrong1": "Higher rank in the world",
+        "wrong2": "VIP Treatment",
+        "wrong3": "Not getting in debt"
+    },
+    {
+        "id": 26,
+        "question": "A common advantage of using credit is:",
+        "answer": "Ability to obtain needed items now",
+        "wrong1": "Less impulse buying",
+        "wrong2": "Lower cost for items purchased",
+        "wrong3": "Lower chance of overspending"
+    },
+    {
+        "id": 27,
+        "question": "What is a disadvantage of credit cards?",
+        "answer": "Overspending and interest payments",
+        "wrong1": "Not being able to overspend",
+        "wrong2": "No cash back",
+        "wrong3": "Not spending your own money"
+    },
+    {
+        "id": 28,
+        "question": "A person’s regular income is referred to as:",
+        "answer": "Capacity",
+        "wrong1": "Character",
+        "wrong2": "Capital",
+        "wrong3": "Collateral"
+    },
+    {
+        "id": 29,
+        "question": "To build credit history, a person could:",
+        "answer": "Establish a steady employment record",
+        "wrong1": "File his or her federal income taxes on time",
+        "wrong2": "Use an ATM several times a month",
+        "wrong3": "Request to view his or her credit file"
+    },
+    {
+        "id": 30,
+        "question": "Utility companies and medical service organizations commonly offer ___ credit.",
+        "answer": "Single payment",
+        "wrong1": "Revolving",
+        "wrong2": "Installment",
+        "wrong3": "Retail"
+    },
+    {
+        "id": 31,
+        "question": "Using the 20-10 rule, a person earning $1,500 a month should not have monthly credit payments that exceed:",
+        "answer": "$300",
+        "wrong1": "$150",
+        "wrong2": "$20",
+        "wrong3": "$30"
+    },
+    {
+        "id": 32,
+        "question": "What should you consider before getting a car?",
+        "answer": "Do I really need it or can I use other transportation methods?",
+        "wrong1": "Is it fast enough?",
+        "wrong2": "Does it have all the latest features?",
+        "wrong3": "Can I get the newest one?"
+    },
+    {
+        "id": 33,
+        "question": "Why should you consider a used car over a new one?",
+        "answer": "Much cheaper, and can still fulfill your transportation needs",
+        "wrong1": "Better mileage",
+        "wrong2": "Newer features",
+        "wrong3": "Doesn’t need more maintenance"
+    },
+    {
+        "id": 34,
+        "question": "The most reliable source for buying a car is usually:",
+        "answer": "A car dealer",
+        "wrong1": "A rental car company",
+        "wrong2": "A police auction",
+        "wrong3": "Private Party sales"
+    },
+    {
+        "id": 35,
+        "question": "___ warranty refers to the fact that a product will do what it is designed to do.",
+        "answer": "An implied",
+        "wrong1": "An extended",
+        "wrong2": "A dealer",
+        "wrong3": "An unexpired manufacturer’s"
+    },
+    {
+        "id": 36,
+        "question": "The auto insurance coverage for damage to your vehicle as a result of an accident is called:",
+        "answer": "Collision",
+        "wrong1": "Property damage",
+        "wrong2": "Comprehensive",
+        "wrong3": "Liability"
+    },
+    {
+        "id": 37,
+        "question": "Doctor costs for injuries to others resulting from an accident are covered by ___ liability.",
+        "answer": "Bodily injury",
+        "wrong1": "Medical",
+        "wrong2": "Collision",
+        "wrong3": "Comprehensive"
+    }
+]

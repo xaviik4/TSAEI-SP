@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "name": "Macroeconomics",
+    "definition": "Macroeconomics as a whole, can be summarized as the choices individuals and societies have to make since most resources are scarce and limited. Economics is the study of the choices people and societies make, why they make these choices, and the consequences of their choices. Scarcity is considered the basic problem of economics, because human needs are infinite, but there are a finite amount of resources. Many consider finance such as the stock market to be part of economics, but that is not always the case. Economics can be thought of as a social science, that is trying to understand human behavior better, and predict human interactions and behavior."
+  },
+  {
+    "id": 2,
+    "name": "Opportunity Cost",
+    "definition": "Opportunity cost is the value of the next best alternative to any decisions that you can make. For example, if you have to decide between watching a movie for an hour and an hour of studying, the opportunity cost of watching the movie is the time you could’ve spent studying. Not all costs are monetary costs, and instead costs of how much of another good, service, or activity must be given up in order to pursue another activity or good."
+  },
+  {
+    "id": 3,
+    "name": "Production Possibilities Curve (PPC)",
+    "definition": "The production possibilities curve is one of the most common models used in economics, used to show the tradeoffs associated with allocating resources between the production of two goods. This can be used to illustrate concepts of scarcity, opportunity cost, efficiency, inefficiency, economic growth, and contractions. The first model below shows a PPC curve, and points on the graph that show if there is efficient or inefficient production. The second model shows economic growth, as efficiency and production amount increases. Going from an inefficient amount of production to an efficient amount of production is not economic growth, as the producer is not making maximum use of their resources to produce goods. On the other hand if the producer was using all of their resources, and then gained more to produce even more goods, then there has been economic growth."
+  },
+  {
+    "id": 4,
+    "name": "Absolute Advantage",
+    "definition": "A situation in which an individual, business, or country can produce more of a good or service than any other producer with the same quantity of resources. For example, the United States has a skilled workforce, many natural resources, and advanced technology, which allows it to produce many goods more efficiently than potential trading partners, giving it this absolute advantage."
+  },
+  {
+    "id": 5,
+    "name": "Comparative Advantage",
+    "definition": "A situation in which an individual, business, or country can produce a good or services at a lower opportunity cost than another producer. For example, Canada can produce a lot of maple syrup due to an abundance of maple trees, meaning a low opportunity cost compared to something such as avocados. Mexico on the other hand has a great climate, allowing it to produce avocados for a lower opportunity cost, while not being able to produce maple syrup without a bigger opportunity cost."
+  },
+  {
+    "id": 6,
+    "name": "Specialization",
+    "definition": "Production specialization according to comparative advantage, not absolute advantage, results in exchange opportunities that lead to consumption opportunities beyond the PPC. Trade between two countries that specialize in different productions such as Canada with their maple syrup and Mexico with their avocados allows for consumers to enjoy both products that they would normally not be able to produce on their own PPC. Usually comparative advantage and opportunity costs will determine the terms of trade for the exchange. A country with absolute advantage in producing all goods still stands to benefit from trade with other countries, since the basis of the gains for trade is comparative advantage and not absolute advantage. It is not possible for an individual country to have a comparative advantage in all goods, since some countries can produce some things at a lower opportunity cost. Self sufficiency is not a thing countries should aim for in a global economy, since countries who try to produce everything for themselves will likely end up poorer than those that engage in specialization and trade."
+  },
+  {
+    "id": 7,
+    "name": "Demand",
+    "definition": "Markets will have two counterparties: buyers and sellers. Demand will represent the buyers in a market, and demand is the description of quantities of a good or services that a buyer would be willing to purchase at all prices. The relationship according to the law of demand is negative, as an increase in price will lead to a decrease in quantity demanded. There are many factors that can determine demand, such as consumer income, and for example if the number of buyers decrease, there will be less quantity demanded, leading to a decrease in demand."
+  },
+  {
+    "id": 8,
+    "name": "Demand Curve",
+    "definition": "The demand curve shows all of the quantities that a buyer is willing to purchase at all possible prices. In Figure 1, the curve D1 represents a buyer that would be willing to purchase nothing when the price is $9, 2 units when the price is $7, and 6 units when the price is $3. A movement along the curve such as moving from point A to B will occur when the price changes, a response to the increase in price. In this case the movement is caused by an increase of price from $3 to $7. The curve D2 represents a higher demand for this good, which would happen if a determinant of demand changed. An increase of buyers would cause the increase of demand. A movement from point B to point X would only occur if demand increased."
+  },
+  {
+    "id": 9,
+    "name": "Supply",
+    "definition": "The law of supply states that there is a positive relationship between price and quantity supplied, leading to an upward sloping supply curve. Sellers like to make money, and high prices mean more money. Factors that influence producer supply can cause the market supply curve to shift. For example, one determinant of supply in the market for tuna is the availability and price of fishing permits, and if more permits are available and lower permit fees, more fishermen will enter the market. As a result, the supply of tuna will increase and a greater quantity of tuna will be supplied to the market."
+  },
+  {
+    "id": 10,
+    "name": "Supply Curve",
+    "definition": "The supply curve demonstrates the relationship between a good’s price and quantity that producers are willing and able to supply. This upward sloping line demonstrates the direct relationship that as the price rises, the quantity supplied increases as price decreases and quantity supplied decreases."
+  },
+  {
+    "id": 11,
+    "name": "Equilibrium Price",
+    "definition": "In a competitive market, demand for and supply of a good or service determine the equilibrium price. An equilibrium is achieved when the price at which quantities demanded and supplied are equal. This can be represented in a graph by showing the combined price and quantity at which the supply and demand curves intersect. A disequilibrium is reached whenever the markets experience imbalances. A surplus is when the price is above equilibrium, which encourages sellers to lower their prices to eliminate the surplus. A shortage exists at any price below equilibrium which leads to the price of the good increasing. Changes in the determinants of supply and/or demand result in a new equilibrium price and quantity, and when this change occurs the old price will no longer be an equilibrium, and instead there will be a shortage or surplus until the price will adjust until there is a equilibrium."
+  },
+  {
+    "id": 12,
+    "name": "Equilibrium Model",
+    "definition": "Consider a market for salamander stickers. In figure 1, the equilibrium price of these stickers is $5, and the equilibrium quantity is 3. In figure 2, a change of demand, such as a trendsetter promoting salamander stickers, will cause demand to increase. Shifting the demand curve to the right. In figure 3, we see a decrease in supply and a decrease in demand. The effect on quantities is easy to see (decreases) and it’s harder to tell if the equilibrium price has decreased, increased, or stayed the same. Because we cannot say what has happened with certainty, the price change is indeterminate."
+  },
+  {
+    "id": 13,
+    "name": "Gross Domestic Product (GDP)",
+    "definition": "Gross domestic product (GDP) is a measure of the final output of a nation’s economy. GDP measures the total value of all new goods and services produced in an economy in a given year. For example, the 2016 GDP of Japan was $4.939 trillion, meaning that in 2016 Japan produced goods and services within its geographical boundaries that were sold for $4.939 trillion. GDP can be measured using three methods (1. Expenditures approach 2. Income approach 3. Value added approach), but all three approaches will get the same value."
+  },
+  {
+    "id": 14,
+    "name": "The Circular Flow Diagram",
+    "definition": "GDP can be represented by the circular flow diagram as a flow of income going in one direction and expenditures on goods, services, and resources going in the opposite direction. In this diagram, households buy goods and services from businesses and businesses buy resources from households."
+  },
+  {
+    "id": 15,
+    "name": "Mathematical Approaches",
+    "definition": "There are two ways to calculate GDP mathematically, using the expenditures approach and the income approach. The expenditures approach can be described as the formula Y = C + I + G + X - M. C is for consumption spending by households, I is spending by business on capital and inventory, G is for government spending on goods and services but not transfer payments, X is for exports, and M is for imports. The income approach uses the formula Y = W + I + R + P. The W represents wages earned from labor, I is interest earned on capital, R is rent earned on land, and P is profits earned on entrepreneurial talent."
+  },
+  {
+    "id": 16,
+    "name": "Limits of GDP",
+    "definition": "GDP is not always perfect. GDP has limitations when trying to measure a country’s output as well as its well being. GDP leaves out some production in the economy such as non marketed goods. GDP is frequently used to capture the wellbeing of a society, even though it was never intended to do that. It doesn’t measure other important aspects of wellbeing, such as pollution or even happiness. It doesn’t factor income inequality, whether growth of the nation is stable or not, and treating the replacement of depreciated capital the same as the creation of new capital. Due to these limitations, GDP would not be the best method to measure the wellbeing of a country, and instead something such as the Human Development Index (HDI) would be much better to measure the wellbeing."
+  },
+  {
+    "id": 17,
+    "name": "Unemployment",
+    "definition": "Unemployment is an important factor in determining a country’s economic performance. The unemployment rate is the amount of adults that are willing and able to work, that cannot find a job. A high employment rate may be a sign that an economy is producing less than it could. On the other hand, it’s also a natural phenomenon that even healthy economies will experience. It’s helpful in representing the state of a nation’s workforce, it does have some shortcomings that should be considered, such as excluding discouraged workers. The three types of unemployment that economists use are frictional, structural, and cyclical unemployment."
+  },
+  {
+    "id": 18,
+    "name": "Labor Force Participation Rate (LFPR)",
+    "definition": "The labor force participation rate (LFPR) is another measure of labor market activity in the economy. The LFPR is the percentage of the adult population that is in the labor force. The labor force includes everyone who is either employed or unemployed. The adult population is defined as anyone who is over the age of 16 who potentially could be part of the labor force. Anyone who is less than 16 years old, is in the military, or is institutionalized is not considered to be potentially part of the labor force and is excluded from this calculation. When people enter the labor force the LFPR increases, and when people exit the labor force the LFPR decreases. A decrease in the LFPR that occurs at the same time as a decrease in the unemployment rate can signal that there are more discouraged workers."
+  },
+  {
+    "id": 19,
+    "name": "Limitations of the Unemployment Rate",
+    "definition": "The unemployment rate as it is measured officially is often criticized for understating the level of joblessness because it excludes anyone working at all or people who aren’t looking for work. In particular, the official unemployment rate leaves out discouraged workers and the underemployed. People who have given up looking for work because they are convinced that they cannot find jobs are considered discouraged workers. Some people are counted as employed because they are working part-time, even though they really want full-time work."
+  },
+  {
+    "id": 1,
+    "name": "Natural Rate of Unemployment",
+    "definition": "The natural rate of unemployment (NRU) is the unemployment rate that exists when the economy produces full-employment real output. NRU is equal to the sum of frictional and structural unemployment. When an economy is producing an efficient amount of output (meaning it is operating on its PPC), the unemployment rate will be equal to the natural rate of unemployment. Even though an economy may be operating efficiently, there will still be some unemployment. Because of that, the natural rate of unemployment is never equal to zero."
+  },
+  {
+    "id": 20,
+    "name": "Changes in the Natural Rate of Unemployment",
+    "definition": "The natural rate of unemployment (NRU) can gradually change over time due to events such as changes in labor force characteristics. The NRU can change due to changes in structural and frictional unemployment. For example, a firm may want to hire fewer workers because the skills of those workers are not needed as much as they used to be. That will cause more structural unemployment, and the natural rate of unemployment will increase."
+  },
+  {
+    "id": 21,
+    "name": "Frictional Unemployment",
+    "definition": "This component of unemployment occurs, as the job process search is not instantaneous, an example of this being someone who recently graduated from college and is currently searching for a job, which might take a few weeks to find and get one going through the entire process."
+  },
+  {
+    "id": 22,
+    "name": "Structural Unemployment",
+    "definition": "Structural unemployment occurs as a result of a structural change in the economy, an example of this is a new technology or process replaces a job, and now the worker is structurally unemployed."
+  },
+  {
+    "id": 23,
+    "name": "Cyclical Unemployment",
+    "definition": "This unemployment type is associated with recessions and expansions, and can either have a positive or negative value. The current unemployment rate will depend on both the natural rate of unemployment and the amount of cyclical unemployment at the time."
+  },
+  {
+    "id": 24,
+    "name": "Inflation",
+    "definition": "Inflation is defined as the sustained increase in the overall price level in the economy, which reduces the purchasing power of a dollar over time. The inflation rate is the pace at which this price level is increasing with the percentage increase in price level from one period to the next. This measure is obtained using the measures in the Consumer Price Index (CPI). The CPI is calculated by getting a certain basket of goods, and then comparing the cost of this basket from year to year and see how it’s changing."
+  },
+  {
+    "id": 25,
+    "name": "Adjusting Nominal Variables into real Variables",
+    "definition": "Real variables are nominal variables deflated by the price level. Examples of real variables are a real wage or a real interest rate. For instance, the sign at the bank says that they are paying 8%, interest, but what are they really earning? If we want to find the real interest rate (the one that reflects what people are actually earning on money deposited in the bank), then we want to take away the effect of inflation. We do so because inflation reduces the purchasing power of the money deposited. If the interest rate the bank gives us (the nominal interest rate) is 8%, but the rate of inflation is 5%, we are really earning 8% - 5% = 3%, on that we put in the bank. Why? Because that is how much more we can buy when we take our money out after a year."
+  },
+  {
+    "id": 26,
+    "name": "Shortcomings of CPI",
+    "definition": "CPI as a measure of inflation has some shortcomings. Substitution bias is one example, where people will substitute another good in exchange for another since it’s cheaper, and CPI will still measure the same basket of goods that went higher in the first place. Changes in quality as well, such as an old car and a new car that cost the same, but the new car has a lot more features and CPI treats these vehicles as identical, overstating the true value of inflation."
+  },
+  {
+    "id": 27,
+    "name": "Not all Inflation is Bad",
+    "definition": "Unexpected inflation arbitrarily redistributes wealth from one group to another group, such as from borrowers to lenders. When people decide to borrow money or lend money, they often consider what they think the rate of inflation will be. When the rate of inflation is different than anticipated, the amount of interest repaid or earned will also be different than what they expected.Lenders are hurt by unanticipated inflation because the money they get paid back has less purchasing power than the money they loaned out. Borrowers benefit from unanticipated inflation because the money they pay back is worth less than the money they borrowed."
+  },
+  {
+    "id": 28,
+    "name": "The Business Cycle",
+    "definition": "The business cycle model shows how a nation’s real GDP fluctuates over time, going through phases as aggregate output increases and decreases. Over the long-run, the business cycle shows a steady increase in potential output in a growing economy. The typical business cycle has four phases, which are: Expansion: When real GDP is increasing and unemployment is decreasing, Peak:The turning point in the business cycle at which output stops increasing and starts decreasing, Recession: When output is decreasing and unemployment is increasing, Trough: The turning point at which a recession ends and output starts increasing again."
+  },
+  {
+    "id": 29,
+    "name": "Aggregate Demand",
+    "definition": "Aggregate demand is a graphical model that illustrates the relationship between the price level and all of the spending that households, businesses, the government, and other countries are willing to do at each price level. It uses the expenditures approach used in calculating GDP, consumption, investments, government spending, and net exports.The aggregate demand curve shows the inverse relationship between the price level spending on real GDP. Figure 1 shows an economy that responds to a decrease in the price level by increasing the amount of aggregate demand. The price level decreases from 120 to 102 and, in response, spending on output increases from $16 trillion to $17 trillion."
+  },
+  {
+    "id": 30,
+    "name": "The Multiplier Effect",
+    "definition": "An additional $1 in spending can lead to more than $1 additional in GDP, and this is due to the multiplier effect. The person who receives it counts it as income, and then spends some of it, leading to a magnification of the multiplier effect.The fraction of how much is spent will determine the ultimate increase that the first dollar will cause—the higher the fraction that is spent, the bigger the multiplier. That means that if there is a change in autonomous spending, such as the government decides to increase government spending, the final impact on real GDP will depend on the fraction that is spent instead of saved."
+  },
+  {
+    "id": 31,
+    "name": "The Expenditure Multiplier",
+    "definition": "The expenditure multiplier shows what impact a change in autonomous spending will have on total spending and aggregate demand in the economy. To find the expenditure multiplier, divide the final change in real GDP by the change in autonomous spending. For example, if the government spends $1 million to send the first gerbil into space, and this increase in government spending results in a $4 million increase in real GDP, then the multiplier is 4. How does that happen? The government buys a rocket from Rocket’s R Us for $1 million, which gets counted in government spending. Rocket’s R Us uses this to pay their employees. Those employees will save some of that $1 million but spend the rest on t-shirts. The t-shirt sellers then spend the income earned selling t-shirts on kayaking lessons, and so on."
+  },
+  {
+    "id": 32,
+    "name": "The Tax Multiplier",
+    "definition": "A change in taxes also results in a multiplier effect. The tax multiplier tells you just how big of a change you will see in real GDP as a result of a change in taxes. For example, imagine the government gives out a total of $1 million in tax refunds. As a result, there is a $3 million increase in real GDP. Therefore, the tax multiplier is -3. The tax multiplier is always one less in magnitude than the expenditure multiplier, and it is always a negative number."
+  },
+  {
+    "id": 33,
+    "name": "Short Run Aggregate Supply",
+    "definition": "Think of something that is stuck. It’s fixed in place and, if it’s moving, it’s doing so really slowly! When things don’t move or adjust quickly, economists will often refer to them as “sticky.” For instance, if market prices or wages don’t adjust quickly to changes in the economy, they are called sticky prices. And when faced with things like sticky wages and prices, an economy might not produce its full employment output. The short-run aggregate supply curve (SRAS) lets us capture how all of the firms in an economy respond to price stickiness. When prices are sticky, the SRAS curve will slope upward. The SRAS curve shows that a higher price level leads to more output. There are two important things to note about SRAS. For one, it represents a short-run relationship between price level and output supplied. Aggregate supply slopes up in the short-run because at least one price is inflexible. Second, SRAS also tells us there is a short-run tradeoff between inflation and unemployment. Because higher inflation leads to more output, higher inflation is also associated with lower unemployment in the short run. The figure below shows an increase in SRAS."
+  },
+  {
+    "id": 34,
+    "name": "Long Run Aggregate Supply",
+    "definition": "How much an economy is able to produce ultimately depends on that country’s resources. In the lesson on short-run aggregate supply, we learned that producers respond to changes in the price level in the short-run, which is why we have the SRAS curve. But the SRAS curve is based on the idea that prices can’t adjust easily. In the short-run prices may have a hard time adjusting, but that might not be true in the long run. While in the short run some input prices are fixed, in the long run all prices and wages are fully flexible. Because of this flexibility, there isn’t a long-run trade-off between inflation and output. Rather, in the long-run, the output an economy can produce depends only on the resources and technology that the country has available. This is the idea embodied in the long-run aggregate supply curve (LRAS), which is vertical at the economy’s potential output. Once prices have had enough time to adjust, output should return to the economy’s potential output. The figure below shows LRAS which is vertically, which means full employment output."
+  },
+  {
+    "id": 35,
+    "name": "Equilibrium in the Aggregate Demand and Supply Model",
+    "definition": "So far we have learned to measure real GDP, but how do we end up with that real GDP? Of all of the different amounts of national income and price levels that might exist, how do we gravitate toward the one that gets measured each year as real GDP? In short, it is the interaction of the buyers and producers of all output that determines both the national income (real GDP) and the price level. In other words, the intersection of aggregate demand (AD) and short-run aggregate supply (SRAS) determines the short-run equilibrium output and price level. Once we have a short-run equilibrium output, we can then compare it to the full employment output to figure out where in the business cycle we are. If current real GDP is less than full employment output, an economy is in a recession. If current real GDP is higher than full employment output, an economy is experiencing a boom. If the current output is equal to the full employment output, then we say that the economy is in long-run equilibrium. Output isn’t too low, or too high. It’s just right."
+  },
+  {
+    "id": 36,
+    "name": "Short Term Changes in the Aggregate Demand and Supply Model",
+    "definition": "We know from previous lessons that business cycles are deviations of GDP away from the long run trend. In other words, real GDP is increasing over time, but its a bumpy road along the way with lots of ups and downs. But why do business cycles exist in the first place? This question continues to fascinate macroeconomists. In our last lesson, we learned how we can use the AD-AS model to describe what real GDP is today. Now, we will use the same model to describe why real GDP might change. Anything that shifts AD or SRAS will create a new macroeconomic equilibrium. We can use the AD-AS model to help explain the business cycle (in other words, the recessions and booms that we have seen in the real world). When AD or SRAS curves shift, we call these “shocks”. Why a shock? Because the change came as a complete surprise! An unexpected change in the economy will shift either the aggregate demand (AD) or short-run aggregate supply (SRAS) curve. Negative shocks decrease output and increase unemployment. Positive shocks increase production and reduce unemployment. The effect on inflation, however, will depend on whether the shock was a supply shock or a demand shock."
+  },
+  {
+    "id": 37,
+    "name": "Long Run Self-Adjustment in the Aggregate Demand and Supply Model",
+    "definition": "The economy of a country has been thrown into a recession due to widespread pessimism by households and firms. Should the government leap into action and try to fix it? Some economists think so, believing that policymakers should take an active approach to stabilize an economy. But other economists believe that intervention isn’t necessary most of the time. Rather, they believe that things will sort themselves out without immediate action needed. In this case, policy interventions might further destabilize an economy, so should only be used in extreme circumstances. This second, “hands-off” approach assumes that there is a long-run self-adjustment mechanism. The long-run self-adjustment mechanism is one process that can bring the economy back to “normal” after a shock. The idea behind this assumption is that an economy will self-correct; shocks matter in the short run, but not the long run. At its core, the self-correction mechanism is about price adjustment. When a shock occurs, prices will adjust and bring the economy back to long-run equilibrium."
+  },
+  {
+    "id": 38,
+    "name": "Fiscal Policy",
+    "definition": "Consider a tale of two economies. Country 1 has an economic boom which has been going on for a while. But as a result, Country 1 struggles with high inflation. Country 2, on the other hand, has been in a recession for quite some time, with high unemployment causing widespread suffering. But the self-correction mechanism isn't kicking in for either country. Is there anything that can be done? Yes! Both governments can use fiscal policy as a tool to bring their countries back to “normal.” For example, they can use fiscal policy (changes in government spending or taxes), which will impact output, unemployment, and inflation. Country 2 needs to increase output to end its recession. Their government can increase output by using expansionary fiscal policy. Expansionary fiscal policy tools include increasing government spending, decreasing taxes, or increasing government transfers. Doing any of these things will increase aggregate demand, leading to a higher output, higher employment, and a higher price level. Country 1’s inflation is caused by producing more than is sustainable, so reducing output would fix its problem. Instead, they can draw on contractionary fiscal policy tools, such as increasing taxes or decreasing government spending or government transfers. Doing any of these things will decrease Country 1’s aggregate demand, which leads to lower output, lower employment, and a lower price level. Usually, governments engage in expansionary fiscal policy during recessions, and contractionary fiscal policy when they are concerned about inflation."
+  },
+  {
+    "id": 39,
+    "name": "Automatic Stabilizers",
+    "definition": "Are the lags, or delays, in discretionary fiscal policy frustrating you? Don't worry, if lags are causing policymakers to be slow to act, automatic stabilizers will help in the meantime. Previously, we learned that policymakers can use discretionary fiscal policy as a tool to end recessions or inflationary booms. But delays in putting those plans in place are common, and may even destabilize an economy even more. Luckily, there are mechanisms in place called automatic stabilizers. These mechanisms will kick in immediately to soften the swings of the business cycle, even if policymakers can't act quickly. Automatic stabilizers are tools built into federal budgets that reduce the impact of the business cycle. They are “automatic” because they happen without requiring anyone to take any action. When aggregate demand decreases, two actions kick in automatically. First, income taxes will go down because the amount of income has decreased. At the same time, transfer payments like unemployment compensation and welfare benefits will increase. As a result, consumption will not decrease by as much as it would have."
+  },
+  {
+    "id": 40,
+    "name": "Banking and Expansion of the Money Supply",
+    "definition": "Money is created when the government prints it, right? That’s only partially true because banks create money too. Banks don’t literally print their own currency. So how does a bank “create” money? Recall that the narrowest definition of the money supply is M1, which includes money in circulation (not held in a bank) and demand deposits held inside banks. In the United States, less than half of M1 is in the form of currency—much of the rest of M1 is in the form of bank accounts. Every time a dollar is deposited into a bank account, a bank’s total reserves increases. The bank will keep some of it on hand as required reserves, but it will loan the excess reserves out. When that loan is made, it increases the money supply. This is how banks “create” money and increase the money supply. When a bank makes loans out of excess reserves, the money supply increases. We can predict the maximum change in the money supply with the money multiplier."
+  }
+]

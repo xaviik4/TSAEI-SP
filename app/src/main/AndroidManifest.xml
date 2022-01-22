@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tsaei">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,18 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tsaei">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".personalFinanceQuiz"
+            android:exported="false"
+            android:parentActivityName="Home" />
+        <activity
             android:name=".stockTracker"
             android:exported="false" />
         <activity
             android:name=".personalFinanceLessons"
             android:exported="false"
-            android:parentActivityName=".home_page" />
+            android:parentActivityName=".Home" />
         <activity
             android:name=".macroeconLessons"
             android:exported="false"
-            android:parentActivityName=".home_page" />
+            android:parentActivityName=".Home2" />
         <activity
             android:name=".investingLessons"
+            android:exported="false"
+            android:parentActivityName=".Home3" />
+        <activity
+            android:name=".Home3"
+            android:exported="false"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".Home2"
+            android:exported="false"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".Home"
             android:exported="false"
             android:parentActivityName=".home_page" />
         <activity
@@ -36,7 +56,7 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".startingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

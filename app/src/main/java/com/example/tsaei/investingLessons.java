@@ -21,12 +21,11 @@ import java.util.ArrayList;
 public class investingLessons extends AppCompatActivity {
 
     ArrayList<String> nameList = new ArrayList<>();
-    ArrayList<String> defintionList = new ArrayList<>();
+    ArrayList<String> definitionList = new ArrayList<>();
 
     private Button nextButton;
     private Button backButton;
     int pageNumber = 0;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +33,9 @@ public class investingLessons extends AppCompatActivity {
         setContentView(R.layout.investing_lessons);
         nextButton = findViewById(R.id.nextButton);
         backButton = findViewById(R.id.backButton);
-        TextView name = (TextView)findViewById(R.id.name);
-        TextView defintion = (TextView)findViewById(R.id.definitions);
+        TextView name = (TextView) findViewById(R.id.name);
+        TextView definition = (TextView) findViewById(R.id.definitions);
         get_json();
-
 
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,105 +48,97 @@ public class investingLessons extends AppCompatActivity {
 
             public void next(int p) {
 
-                for (int i = pageNumber; i < nameList.get().length(); i++) {
+                if (p == 0) {
                     name.setText(nameList.get(p));
-                    defintion.setText(defintionList.get(p));
-                    pageNumber++;
-                }
-                Toast.makeText(getApplicationContext(), "No further content", Toast.LENGTH_LONG).show();
-
-               /* if (p == 0) {
-                    name.setText(nameList.get(0));
-                    defintion.setText(defintionList.get(0));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                     //hide back button
-                }
-                else if (p == 1) {
-                    name.setText(nameList.get(1));
-                    defintion.setText(defintionList.get(1));
+                } else if (p == 1) {
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 2) {
-                    name.setText(nameList.get(2));
-                    defintion.setText(defintionList.get(2));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 3) {
-                    name.setText(nameList.get(3));
-                    defintion.setText(defintionList.get(3));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 4) {
-                    name.setText(nameList.get(4));
-                    defintion.setText(defintionList.get(4));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 5) {
-                    name.setText(nameList.get(5));
-                    defintion.setText(defintionList.get(5));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }else if (p == 6) {
-                    name.setText(nameList.get(6));
-                    defintion.setText(defintionList.get(6));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 7) {
-                    name.setText(nameList.get(7));
-                    defintion.setText(defintionList.get(7));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 8) {
-                    name.setText(nameList.get(8));
-                    defintion.setText(defintionList.get(8));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 9) {
-                    name.setText(nameList.get(9));
-                    defintion.setText(defintionList.get(9));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 10) {
-                    name.setText(nameList.get(10));
-                    defintion.setText(defintionList.get(10));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 11) {
-                    name.setText(nameList.get(11));
-                    defintion.setText(defintionList.get(11));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 12) {
-                    name.setText(nameList.get(12));
-                    defintion.setText(defintionList.get(12));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 13) {
-                    name.setText(nameList.get(13));
-                    defintion.setText(defintionList.get(13));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 14) {
-                    name.setText(nameList.get(14));
-                    defintion.setText(defintionList.get(14));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 15) {
-                    name.setText(nameList.get(15));
-                    defintion.setText(defintionList.get(15));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 16) {
-                    name.setText(nameList.get(16));
-                    defintion.setText(defintionList.get(16));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                     pageNumber++;
                 }
                 else if (p == 17) {
-                    name.setText(nameList.get(17));
-                    defintion.setText(defintionList.get(17));
+                    name.setText(nameList.get(p));
+                    definition.setText(definitionList.get(p));
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "No further content",Toast.LENGTH_LONG).show();
-                }*/
+                }
             }
         });
 
@@ -163,87 +153,87 @@ public class investingLessons extends AppCompatActivity {
 
            public void back(int p) {
                if (p == 17) {
-                   name.setText(nameList.get(16));
-                   defintion.setText(defintionList.get(16));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 16) {
-                   name.setText(nameList.get(15));
-                   defintion.setText(defintionList.get(15));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 15) {
-                   name.setText(nameList.get(14));
-                   defintion.setText(defintionList.get(14));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 14) {
-                   name.setText(nameList.get(13));
-                   defintion.setText(defintionList.get(13));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 13) {
-                   name.setText(nameList.get(12));
-                   defintion.setText(defintionList.get(12));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }else if (p == 12) {
-                   name.setText(nameList.get(11));
-                   defintion.setText(defintionList.get(11));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 11) {
-                   name.setText(nameList.get(10));
-                   defintion.setText(defintionList.get(10));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 10) {
-                   name.setText(nameList.get(9));
-                   defintion.setText(defintionList.get(9));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 9) {
-                   name.setText(nameList.get(8));
-                   defintion.setText(defintionList.get(8));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 8) {
-                   name.setText(nameList.get(7));
-                   defintion.setText(defintionList.get(7));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 7) {
-                   name.setText(nameList.get(6));
-                   defintion.setText(defintionList.get(6));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 6) {
-                   name.setText(nameList.get(5));
-                   defintion.setText(defintionList.get(5));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 5) {
-                   name.setText(nameList.get(4));
-                   defintion.setText(defintionList.get(4));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 4) {
-                   name.setText(nameList.get(3));
-                   defintion.setText(defintionList.get(3));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 3) {
-                   name.setText(nameList.get(2));
-                   defintion.setText(defintionList.get(2));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 2) {
-                   name.setText(nameList.get(1));
-                   defintion.setText(defintionList.get(1));
+                   name.setText(nameList.get(p - 1));
+                   definition.setText(definitionList.get(p - 1));
                    pageNumber--;
                }
                else if (p == 1) {
                    name.setText(nameList.get(0));
-                   defintion.setText(defintionList.get(0));
+                   definition.setText(definitionList.get(0));
                    pageNumber--;
                    // hide the back button
                }
@@ -322,63 +312,58 @@ public class investingLessons extends AppCompatActivity {
             for (int i = 0; i < jsonArray.length(); i++){
                 JSONObject obj = jsonArray.getJSONObject(i);
                 if (obj.getString("id").equals("1")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("2")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("3")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("4")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("5")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("6")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("7")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("8")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("9")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("10")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("11")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("12")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("13")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("14")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }else if (obj.getString("id").equals("15")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
                 else if (obj.getString("id").equals("16")) {
-                    defintionList.add(obj.getString("definition"));
-                }
-                else if (obj.getString("id").equals("17")) {
-                    defintionList.add(obj.getString("definition"));
-                }
-                else if (obj.getString("id").equals("18")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
+                } else if (obj.getString("id").equals("17")) {
+                    definitionList.add(obj.getString("definition"));
+                } else if (obj.getString("id").equals("18")) {
+                    definitionList.add(obj.getString("definition"));
                 }
             }
             //Toast.makeText(getApplicationContext(),nameList.toString(),Toast.LENGTH_LONG).show();
 
-        } catch (UnsupportedEncodingException e) {
+        } catch (UnsupportedEncodingException | JSONException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
-
     }
 }

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Tsaei</string>
     <string name="title_activity_home_page">homePage</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Personal Finance</string>
+    <string name="tab_text_2">Macroeconomics</string>
+    <string name="tab_text_3">Investing</string>
     <string name="title_activity_home">Home</string>
 </resources>

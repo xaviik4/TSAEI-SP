@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Personal Finance",
+        "definition": "Personal finance is all about managing your money responsibility and making sure that you budget yourself correctly, so that you can pay your day to day necessary expenses, as well as still being able to enjoy and spend your money on things you like."
+    },
+    {
+        "id": 2,
+        "name": "What is the importance of making choices?",
+        "definition": "Every day you make choices. Some minor, some major. In personal finance, making the right and smart choice is key towards staying in a good financial standing. The more and more you make decisions, the more you’ll learn what is a good decision and what is not a good decision."
+    },
+    {
+        "id": 3,
+        "name": "Ways you can start analyzing financial choices",
+        "definition": "A great way to start thinking about personal finance and choices is to list out what things you’ll spend money on. These can be things such as paying for college, buying a car, getting a home, and even something as small as getting groceries. Thinking and analyzing the priority in which you should pay for these items, will help you become a better decision maker, in what you should get and what you shouldn’t. Including non essential items as well on your list also helps you become better at deciding whether you necessarily want or need these items. After budgeting out on the essential items first."
+    },
+    {
+        "id": 4,
+        "name": "Building a Career",
+        "definition": "Getting a job and building your career is one of the most important things you can do to yourself to help you financially. A job brings in a steady stream of income, and also includes benefits that can help save you a lot of money such as a health insurance plan and a retirement plan. A job is  a great way to help set you up for future financial success, and is something that everyone should prioritize getting. A job can also have some hidden costs, such as the need to pay for transportation to the job, getting a uniform and nice clothes, potential child/adult care costs, and if applicable a union fee. Factoring in these costs is necessary to make sure that you are within your budget, and you don’t accidentally go over because of these costs."
+    },
+    {
+        "id": 5,
+        "name": "The Art of Budgeting",
+        "definition": "Making sure you’re a good budgeter, will set you up for future financial well being and success. Setting goals is one important thing you can do to help budget better, and figure out what you want your money to be in a certain time frame. Make sure your goals are realistic, and something you can actually achieve in a certain time frame. Another aspect of budgeting is checking and tracking where your money is going. Each and every expense, no matter how small, should be factored into your budget. Keeping track of each expense is key towards understanding where your money is going, and understanding what your spending habits are. Being able to decide if something is worth it and whether or not it should be included in your budget allows you to save your money, and save you from possible financial troubles. Mastering the art of budgeting and knowing how much money you have, and how you spend it is the number one way to avoid any sort of financial troubles."
+    },
+    {
+        "id": 6,
+        "name": "Buying/Renting a Home",
+        "definition": "When going out to get a home, consider whether you should rent, or buy a home. Both buying and renting have their pros and cons, and deciding what is better for you is key towards keeping your finances in good standing. When renting a home, benefits can include ease of mobility, fewer responsibilities, and lower initial costs. Disadvantages include few financial benefits in terms of tax deductions, a more restricted lifestyle depending on your landlord’s wants, possible legal concerns, and no opportunity to have ownership of that house. Benefits of buying a home include tax savings, having actual ownership of your house, and potential economic gain from the appreciation of your house value. Disadvantages include financial risks from the down payment and mortgage, fluctuating property values, limited mobility, and higher costs from maintenance and taking care of your home."
+    },
+    {
+        "id": 7,
+        "name": "Applying to a Mortgage",
+        "definition": "To first apply for a mortgage, determine an estimated value for the value of your house. Then, you’ll need to obtain funds for a down payment, so saving up before buying a home is key towards obtaining it. You’ll also need to reduce or pay off  all debts you have, and improve your credit score if necessary to show lenders that you are a responsible borrower. You’ll then need to compare different types of mortgages and loans from different lenders, and start to prepare your mortgage application for where you’re applying at."
+    },
+    {
+        "id": 8,
+        "name": "Types of Mortgages",
+        "definition": "There are many different types of mortgages from many different lenders, and knowing the difference between all of them is key towards getting the best one that fits your needs and what you want."
+    },
+    {
+        "id": 9,
+        "name": "Conventional Mortgage",
+        "definition": "A conventional mortgage has equal payments, typically over 15, 30, or 40 years based on a fixed interest rate."
+    },
+    {
+        "id": 10,
+        "name": "Government Mortgage Programs",
+        "definition": "Government-guaranteed financing programs include loans from the Federal Housing Authority (FHA) and the Veterans Administration (VA)."
+    },
+    {
+        "id": 11,
+        "name": "Balloon Mortgage",
+        "definition": "A balloon mortgage has fixed monthly payments and a very large final payment, usually after three, five, or seven years."
+    },
+    {
+        "id": 12,
+        "name": "Adjustable Rate Mortgage",
+        "definition": "The adjustable rate mortgage (ARM), also referred to as a flexible rate mortgage or a variable rate mortgage, has an interest rate that increases or decreases during the life of the loan based on changes in market interest rates."
+    },
+    {
+        "id": 13,
+        "name": "Graduated Payment Mortgage",
+        "definition": "A graduated payment mortgage has payments rising to different levels during the term of the loan."
+    },
+    {
+        "id": 14,
+        "name": "Growing Equity Mortgage",
+        "definition": "A growing equity mortgage has increases in payments for the loan to be paid off more quickly."
+    },
+    {
+        "id": 15,
+        "name": "Buy Down Mortgage",
+        "definition": "A buy down is an interest rate subsidy from a real estate developer that reduces the mortgage payments during the first few years of the loan."
+    },
+    {
+        "id": 16,
+        "name": "Shared Appreciation Mortgage",
+        "definition": "A shared appreciation mortgage (SAM) is an arrangement in which the borrower agrees to share the increased value of the home with the lender when the home is sold."
+    },
+    {
+        "id": 17,
+        "name": "Interest Only Mortgage",
+        "definition": "An interest-only mortgage consists of interest-only payments for a specified period, usually five to ten years."
+    },
+    {
+        "id": 18,
+        "name": "Reverse Mortgage",
+        "definition": "Reverse mortgages provide an elderly homeowner with tax-free income in the form of a loan that is paid back (with interest) when the home is sold or the homeowner dies."
+    },
+    {
+        "id": 19,
+        "name": "Refinancing",
+        "definition": "Refinancing refers to finding a new mortgage for your home, usually one with a lower interest rate or a shorter term of payment."
+    },
+    {
+        "id": 20,
+        "name": "Closing Costs",
+        "definition": "Closing costs, or the cost of closing out a real estate transaction, include attorney or escrow fees, title insurance, property taxes, appraisal fees, recording fees, transfer taxes, loan discount points, inspections, lender’s origination fee, reserves for home insurance and property taxes, interest (paid from date of closing to 30 days before first monthly payment), and real estate agent commission fees."
+    },
+    {
+        "id": 21,
+        "name": "Selling your Home",
+        "definition": "When selling your home, prepare your home for selling by making sure that everything in your house looks clean and updated, to receive a higher appraisal on your home. Making sure that everything is in good working condition and repaired will make appraisers think your house is worth more, and give you a better price. Determine whether this price is good, by comparing it to other houses in your area, and whether the price is reasonable and similar to other houses that are similar to yours. Then, decide whether you’ll do a sale by yourself, or consider getting a real estate agent who will help you sell your home."
+    },
+    {
+        "id": 22,
+        "name": "Banking Services",
+        "definition": "Banking services are a key part of personal finance. Knowing which service from which bank to get, will help you choose the best one for your needs. A checking account is an account made for day to day use, with many withdrawals and deposits for stuff you need on the daily. A savings account is an account designed for long term saving and storing money you don’t need on a regular basis, usually with a higher interest rate too to help you make some extra money by keeping it in that account."
+    },
+    {
+        "id": 23,
+        "name": "How a Checking Account Works",
+        "definition": "A checking account helps store money you need on a regular basis, and allows for quick deposits and withdrawals at ATMs and at banks. A checking account usually comes with a debit card, that allows you to use the money in your checking account to make purchases, or withdraw money from your bank account at an ATM. This card takes money directly from your account unlike a credit card, so you can only spend what you have. Unlike credit cards, there are usually no benefits such as cashback you can get back from debit cards. Spending the only money you have by using a debit card is the only feature that debit cards have over credit cards that makes using them worth it, to help prevent unnecessary spending. Some banks have mobile apps that allow you to deposit checks you receive remotely at home by taking a picture of your check, saving you a visit to a local branch to deposit the check. Direct deposit is also another feature, where paychecks just get directly deposited into your checking account, without the need of receiving a paycheck and having to deposit it yourself."
+    },
+    {
+        "id": 24,
+        "name": "Credit",
+        "definition": "In today’s world, credit is important and integrated into many parts of our lives. From getting an airline, renting a car, or even getting a hotel room, credit cards have become an important and convenient aspect to getting these. Managing your use of credit cards responsibly allows you to get a good credit score, allowing you to get better loans. Advantages of having credit, is you can buy things using your anticipated future income if you don’t have the money at the moment, having a record of all your purchases, and consolidating bills (moving all your debts into one bill). Disadvantages of credit is possibly having to make interest payments, overspending can be too easy, and financial problems can happen if you can’t manage your credit properly. Making sure you pay your credit card bill every month on time will make it so that your credit score won’t be affected, and doing this over a long period of time will actually help increase your credit score."
+    },
+    {
+        "id": 25,
+        "name": "Getting a Car",
+        "definition": "A car is something that everyone needs. Choosing the right time to buy a car, and the right car will help you stay in good financial standing. Always consider whether a car is really necessary, and whether any other mode of transportation can suit your needs. Consider whether to get a used car over a new one, as it’s usually cheaper, but can be older and might need some repairs. Think about the cost of owning the car, such as fees needing to be paid to the dealership, gas, repairs and maintenance, insurance, parking, and a place to store it. Consider the 20/10 rule, where debt should not be more than 20% of annual income, and 10% of monthly income. When buying a car, consider all the features, and read up on new car tech to see what is in the new car you are buying. Make sure you get a good loan with a low APR, and having a good credit score shows that you are a responsible buyer and will pay back all your debts. Auto insurance is also a necessity when getting a car, and making sure you choose the right one that fits your budget, as well as covering enough for damages is important."
+    }
+]

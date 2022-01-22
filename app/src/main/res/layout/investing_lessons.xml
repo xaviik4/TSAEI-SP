@@ -53,35 +53,41 @@
         android:textColor="@color/black"
         android:textSize="15sp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="107dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="70dp"
-        android:backgroundTint="@color/black"
-        android:padding="10dp"
-        android:text="back"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        app:cornerRadius="35dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="70dp"
-        android:layout_toRightOf="@+id/backButton"
-        android:backgroundTint="@color/black"
-        android:padding="10dp"
-        android:text="next"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        app:cornerRadius="35dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="107dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"
+            android:text="back"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="35dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"
+            android:text="next"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="35dp" />
+    </LinearLayout>
 
 </RelativeLayout>

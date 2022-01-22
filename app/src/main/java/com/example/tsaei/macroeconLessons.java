@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class macroeconLessons extends AppCompatActivity {
 
     ArrayList<String> nameList = new ArrayList<>();
-    ArrayList<String> defintionList = new ArrayList<>();
+    ArrayList<String> definitionList = new ArrayList<>();
     int pageNumber = 0;
     private Button nextButton;
     private Button backButton;
@@ -32,7 +32,7 @@ public class macroeconLessons extends AppCompatActivity {
         nextButton = findViewById(R.id.nextButton);
         backButton = findViewById(R.id.backButton);
         TextView name = (TextView) findViewById(R.id.name);
-        TextView defintion = (TextView) findViewById(R.id.definitions);
+        TextView definition = (TextView) findViewById(R.id.definitions);
         get_json();
 
 
@@ -49,76 +49,76 @@ public class macroeconLessons extends AppCompatActivity {
 
                 if (p == 0) {
                     name.setText(nameList.get(0));
-                    defintion.setText(defintionList.get(0));
+                    definition.setText(definitionList.get(0));
                     pageNumber++;
                     //hide back button
                 } else if (p == 1) {
                     name.setText(nameList.get(1));
-                    defintion.setText(defintionList.get(1));
+                    definition.setText(definitionList.get(1));
                     pageNumber++;
                 } else if (p == 2) {
                     name.setText(nameList.get(2));
-                    defintion.setText(defintionList.get(2));
+                    definition.setText(definitionList.get(2));
                     pageNumber++;
                 } else if (p == 3) {
                     name.setText(nameList.get(3));
-                    defintion.setText(defintionList.get(3));
+                    definition.setText(definitionList.get(3));
                     pageNumber++;
                 } else if (p == 4) {
                     name.setText(nameList.get(4));
-                    defintion.setText(defintionList.get(4));
+                    definition.setText(definitionList.get(4));
                     pageNumber++;
                 } else if (p == 5) {
                     name.setText(nameList.get(5));
-                    defintion.setText(defintionList.get(5));
+                    definition.setText(definitionList.get(5));
                     pageNumber++;
                 } else if (p == 6) {
                     name.setText(nameList.get(6));
-                    defintion.setText(defintionList.get(6));
+                    definition.setText(definitionList.get(6));
                     pageNumber++;
                 } else if (p == 7) {
                     name.setText(nameList.get(7));
-                    defintion.setText(defintionList.get(7));
+                    definition.setText(definitionList.get(7));
                     pageNumber++;
                 } else if (p == 8) {
                     name.setText(nameList.get(8));
-                    defintion.setText(defintionList.get(8));
+                    definition.setText(definitionList.get(8));
                     pageNumber++;
                 } else if (p == 9) {
                     name.setText(nameList.get(9));
-                    defintion.setText(defintionList.get(9));
+                    definition.setText(definitionList.get(9));
                     pageNumber++;
                 } else if (p == 10) {
                     name.setText(nameList.get(10));
-                    defintion.setText(defintionList.get(10));
+                    definition.setText(definitionList.get(10));
                     pageNumber++;
                 } else if (p == 11) {
                     name.setText(nameList.get(11));
-                    defintion.setText(defintionList.get(11));
+                    definition.setText(definitionList.get(11));
                     pageNumber++;
                 } else if (p == 12) {
                     name.setText(nameList.get(12));
-                    defintion.setText(defintionList.get(12));
+                    definition.setText(definitionList.get(12));
                     pageNumber++;
                 } else if (p == 13) {
                     name.setText(nameList.get(13));
-                    defintion.setText(defintionList.get(13));
+                    definition.setText(definitionList.get(13));
                     pageNumber++;
                 } else if (p == 14) {
                     name.setText(nameList.get(14));
-                    defintion.setText(defintionList.get(14));
+                    definition.setText(definitionList.get(14));
                     pageNumber++;
                 } else if (p == 15) {
                     name.setText(nameList.get(15));
-                    defintion.setText(defintionList.get(15));
+                    definition.setText(definitionList.get(15));
                     pageNumber++;
                 } else if (p == 16) {
                     name.setText(nameList.get(16));
-                    defintion.setText(defintionList.get(16));
+                    definition.setText(definitionList.get(16));
                     pageNumber++;
                 } else if (p == 17) {
                     name.setText(nameList.get(17));
-                    defintion.setText(defintionList.get(17));
+                    definition.setText(definitionList.get(17));
                 } else {
                     Toast.makeText(getApplicationContext(), "No further content", Toast.LENGTH_LONG).show();
                 }
@@ -137,71 +137,71 @@ public class macroeconLessons extends AppCompatActivity {
             public void back(int p) {
                 if (p == 17) {
                     name.setText(nameList.get(16));
-                    defintion.setText(defintionList.get(16));
+                    definition.setText(definitionList.get(16));
                     pageNumber--;
                 } else if (p == 16) {
                     name.setText(nameList.get(15));
-                    defintion.setText(defintionList.get(15));
+                    definition.setText(definitionList.get(15));
                     pageNumber--;
                 } else if (p == 15) {
                     name.setText(nameList.get(14));
-                    defintion.setText(defintionList.get(14));
+                    definition.setText(definitionList.get(14));
                     pageNumber--;
                 } else if (p == 14) {
                     name.setText(nameList.get(13));
-                    defintion.setText(defintionList.get(13));
+                    definition.setText(definitionList.get(13));
                     pageNumber--;
                 } else if (p == 13) {
                     name.setText(nameList.get(12));
-                    defintion.setText(defintionList.get(12));
+                    definition.setText(definitionList.get(12));
                     pageNumber--;
                 } else if (p == 12) {
                     name.setText(nameList.get(11));
-                    defintion.setText(defintionList.get(11));
+                    definition.setText(definitionList.get(11));
                     pageNumber--;
                 } else if (p == 11) {
                     name.setText(nameList.get(10));
-                    defintion.setText(defintionList.get(10));
+                    definition.setText(definitionList.get(10));
                     pageNumber--;
                 } else if (p == 10) {
                     name.setText(nameList.get(9));
-                    defintion.setText(defintionList.get(9));
+                    definition.setText(definitionList.get(9));
                     pageNumber--;
                 } else if (p == 9) {
                     name.setText(nameList.get(8));
-                    defintion.setText(defintionList.get(8));
+                    definition.setText(definitionList.get(8));
                     pageNumber--;
                 } else if (p == 8) {
                     name.setText(nameList.get(7));
-                    defintion.setText(defintionList.get(7));
+                    definition.setText(definitionList.get(7));
                     pageNumber--;
                 } else if (p == 7) {
                     name.setText(nameList.get(6));
-                    defintion.setText(defintionList.get(6));
+                    definition.setText(definitionList.get(6));
                     pageNumber--;
                 } else if (p == 6) {
                     name.setText(nameList.get(5));
-                    defintion.setText(defintionList.get(5));
+                    definition.setText(definitionList.get(5));
                     pageNumber--;
                 } else if (p == 5) {
                     name.setText(nameList.get(4));
-                    defintion.setText(defintionList.get(4));
+                    definition.setText(definitionList.get(4));
                     pageNumber--;
                 } else if (p == 4) {
                     name.setText(nameList.get(3));
-                    defintion.setText(defintionList.get(3));
+                    definition.setText(definitionList.get(3));
                     pageNumber--;
                 } else if (p == 3) {
                     name.setText(nameList.get(2));
-                    defintion.setText(defintionList.get(2));
+                    definition.setText(definitionList.get(2));
                     pageNumber--;
                 } else if (p == 2) {
                     name.setText(nameList.get(1));
-                    defintion.setText(defintionList.get(1));
+                    definition.setText(definitionList.get(1));
                     pageNumber--;
                 } else if (p == 1) {
                     name.setText(nameList.get(0));
-                    defintion.setText(defintionList.get(0));
+                    definition.setText(definitionList.get(0));
                     pageNumber--;
                     // hide the back button
                 } else {
@@ -268,41 +268,41 @@ public class macroeconLessons extends AppCompatActivity {
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);
                 if (obj.getString("id").equals("1")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("2")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("3")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("4")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("5")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("6")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("7")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("8")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("9")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("10")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("11")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("12")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("13")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("14")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("15")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("16")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("17")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 } else if (obj.getString("id").equals("18")) {
-                    defintionList.add(obj.getString("definition"));
+                    definitionList.add(obj.getString("definition"));
                 }
             }
             //Toast.makeText(getApplicationContext(),nameList.toString(),Toast.LENGTH_LONG).show();
